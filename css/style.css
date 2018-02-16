@@ -4,7 +4,6 @@ nav {
 	transition: background-color .3s, opacity .2s, visibility 0s;
 	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 	z-index: 10;
-	background-color: #7db557;
 }
 
 nav .nav-background {
@@ -12,7 +11,7 @@ nav .nav-background {
 	position: absolute;
 	top: 0;
 	right: 0;
-	bottom: 0;
+	bottom: 64px;
 	left: 0;
 	z-index: -1;
 	opacity: .1;
@@ -47,7 +46,6 @@ nav .nav-header {
 }
 
 .nav-content {
-	background-color: inherit;
 	height: 64px;
 }
 
@@ -63,4 +61,13 @@ nav ul a {
 
 nav ul a:hover {
 	background-color: rgba(0, 0, 0, 0.1)!important;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+nav .pinned {
+	width: 100%;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }

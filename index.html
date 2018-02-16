@@ -14,7 +14,7 @@
 
 <body style="">
 
-	<nav class="nav-extended">
+	<nav class="nav-extended green">
 		<!-- background -->
 
 		<div class="nav-background">
@@ -33,29 +33,87 @@
 		</div>
 
 		<div class="nav-header center">
-			<h1>Lorem ipsum</h1>
+			<h1><b>Lorem ipsum</b></h1>
 			<div class="tagline">dolor sit amet, consectetur</div>
 		</div>
 
 		<!-- filter(fixed part) -->
 		<div class="nav-content">
-			<div class="container">
-				<ul class="tabs tabs-transparent">
-					<li class="tab"><a class="active" href="#test1">Tab 1</a></li>
-					<li class="tab"><a href="#test2">Tab 2</a></li>
-					<li class="tab"><a href="#test3">Tab 3</a></li>
-				</ul>
+			<div class="pin green darken-1">
+				<div class="container">
+					<ul class="tabs tabs-transparent">
+						<li class="tab"><a class="active" href="#test1">Tab 1</a></li>
+						<li class="tab"><a href="#test2">Tab 2</a></li>
+						<li class="tab"><a href="#test3">Tab 3</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</nav>
 
-	<main class="container">
+	<main>
+		<!-- one section -->
+		<div class="section container">
+			<div class="row valign-wrapper">
+				<div class="col s12 m6 hide-on-small-only">
+					<h4>Lorem ipsum</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+						dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="col s12 m6">
+					<div class="card clickable">
+						<div class="card-image">
+							<img src="img/sample.jpg">
+							<span class="card-title">Card Title</span>
+						</div>
+						<div class="card-content">
+							<div class="chip">
+								<img src="img/sample2.jpg"> Tag name
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- one section -->
+		<div class="section container">
+			<div class="row valign-wrapper">
+				<div class="col s12 m6">
+					<div class="card clickable">
+						<div class="card-image">
+							<img src="img/sample3.jpg">
+							<span class="card-title">Card Title</span>
+						</div>
+						<div class="card-content">
+							<div class="chip">
+								<img src="img/sample2.jpg"> Tag name
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col s12 m6 hide-on-small-only">
+					<h4>Lorem ipsum</h4>
+					<p>有好靈獎人上目了球縣。為極再而時以連出西二畫值前香少市童天的並通造是人資錢對聽氣的步提也情養一臺開出任。長媽因地成清呢都回世去親場生現，報只奇不進不認社白。候麼機。養爭向向生實家害十身詩拉業地王空了展進臺火，最是長著經變會要約案來回立定顯。得易讓，程有自不離心心。 能公師制了認，就器的亞事是作引德老突務這：氣之前沒？光主樣起體分亮……他自也覺們機了邊代個之那施銷各唱廣、位連至：一你區花料見油時十見；只春可極政真，十除們你不意，身場達。面風高園醫人究出王重我的為任非中西怎我，千馬度家可題葉常我著子書議中是常如結看笑人表河北方開的子明到；快滿以果創格、的化在打，草般會如。之別不般種裡謝朋就這近成民質小小不圖，兒過黑創其。中力能長德排內樂麼推以？會般反它工。大現興！間源現美參爭因一不，位至道對無臺的已外、克中長到，這也相？便有下想位印勢電全發的馬動起的青而事管至種你去中細小當、教經人花她合拉不自配來色以向。
+						輪國自汽想我期爾首用年個的光名個明格。
+
+					</p>
+				</div>
+			</div>
+		</div>
 
 
 	</main>
 
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/materialize.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.pin').pushpin({
+				top: $('.pin').offset().top,
+			});
+		});
+	</script>
 </body>
 
 </html>
